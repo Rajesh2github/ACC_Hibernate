@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>welcome !!</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</head>
+
+<body>
+<h1>
+welcome user!!
+
+<button onclick="getUser()">get User</button>
+</h1>
+
+</body>
+
+<script type="text/javascript">
+
+function getUser(){
+	
+	$.ajax({
+		type :"GET",
+		url :"http://localhost:6052/employee",
+		contentType :"Application/json",
+		sucess : (result)=>{
+			alert(result.name);
+		},
+		error :(e) =>{
+			alert(e);
+		}
+			
+		
+	});
+}
+
+
+</script>
+</html>

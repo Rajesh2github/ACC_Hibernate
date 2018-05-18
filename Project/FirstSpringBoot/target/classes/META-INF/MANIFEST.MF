@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: FirstSpringBoot
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: A06438_P5.Training
+Implementation-Vendor-Id: com.example
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/FirstSpringBoot
+Created-By: Maven Integration for Eclipse
+
