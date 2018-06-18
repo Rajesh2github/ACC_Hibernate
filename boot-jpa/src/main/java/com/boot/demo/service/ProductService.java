@@ -60,5 +60,7 @@ public class ProductService {
 	public List<Product> getProductByPrice(double price) {
 		return productRepo.higher(price);
 	}
-	
+	public String getProductNameByPrductId(int pId){
+		 return productRepo.getProductNameByPrductId(pId);
+	}
 }

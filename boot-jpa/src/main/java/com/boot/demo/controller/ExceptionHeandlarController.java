@@ -1,4 +1,4 @@
-package com.boot.demo.controller;
+/*package com.boot.demo.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,3 +18,4 @@ public class ExceptionHeandlarController {
 	}
 
 }
+*/

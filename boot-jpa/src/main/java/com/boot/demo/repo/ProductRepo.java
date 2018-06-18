@@ -17,4 +17,6 @@ public interface ProductRepo extends JpaRepository<Product, Integer> {
  
  @Query(name="product.getallhigherPriceProduct")
  List<Product>  higher(@Param("price") double price);
+ @Query("SELECT p.productName FROM Product p where prductId = :prductId")
+ public String getProductNameByPrductId(@Param("prductId")Integer prductId);
 }
